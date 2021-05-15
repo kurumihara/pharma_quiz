@@ -25,7 +25,7 @@ SECRET_KEY = 'w1-6ryxy(v-j*if9z*zd*ao&h9d^qrqfwa&cgf!^@(gb$%q(_3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pharmaquiz.pythonanywhere.com']
 
 
 # Application definition
