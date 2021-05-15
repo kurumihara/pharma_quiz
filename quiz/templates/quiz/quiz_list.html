@@ -3,7 +3,7 @@
 {% block title %}{% trans "All Quizzes" %}{% endblock %}
 
 {% block content %}
-<h2>{% trans "List of quizzes" %}</h2>
+<h2>{% trans "★PharmaQuizリスト★" %}</h2>
     {% if quiz_list %}
 		<table class="table table-bordered table-striped">
 
@@ -28,7 +28,7 @@
 			  <td>{{ quiz.single_attempt }}</td>
 			  <td>
 				<a href="{% url 'quiz_start_page' slug=quiz.url %}">
-				  {% trans "View details" %}
+				  {% trans "詳細" %}
 				</a>
 			</tr>
 
